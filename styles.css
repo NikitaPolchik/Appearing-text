@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.firstPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  background: url(unimportant\ background.jpg);
+  background-size: cover;
+}
