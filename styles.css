@@ -9,7 +9,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: gray;
+  color: white;
   background: url(unimportant\ background.jpg);
   background-size: cover;
+}
+
+.mainDiv {
+  background: linear-gradient(white, rgba(60, 138, 255, 0.999));
+}
+
+.secondPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.secondPage img {
+  width: 900px;
+}
+.text {
+  width: 30%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 0.5s all ease-in-out;
+}
+
+.text-appear {
+  opacity: 1;
+  transform: translateY(0px);
 }
